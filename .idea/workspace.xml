@@ -62,9 +62,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KiemTraSoNguyenTo">
-    <configuration name="GiaiPhuongTrinhBacNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.GiaiPhuongTrinhBacNhat" />
+  <component name="RunManager" selected="Application.HienThiCacSoNguyenToNhoHon100">
+    <configuration name="HienThiCacSoNguyenToNhoHon100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.HienThiCacSoNguyenToNhoHon100" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -76,15 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KhaiBaoVaSuDungBien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NgonNguLapTrinhJava.KhaiBaoVaSuDungBien" />
-      <module name="Module2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KiemTraSoNguyenTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.KiemTraSoNguyenTo" />
+    <configuration name="KiemTraNamNhuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.KiemTraNamNhuan" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuDungToanTu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.SuDungToanTu" />
+    <configuration name="ThietKeMenuChoUngDung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.ThietKeMenuChoUngDung" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhSoNgayTrongThang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.TinhSoNgayTrongThang" />
+    <configuration name="UngDungDocSoThanhChu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.UngDungDocSoThanhChu" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LapTrinhJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UngDungTinhTienLaiChoVay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.UngDungTinhTienLaiChoVay" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KiemTraSoNguyenTo" />
-        <item itemvalue="Application.TinhSoNgayTrongThang" />
-        <item itemvalue="Application.GiaiPhuongTrinhBacNhat" />
-        <item itemvalue="Application.SuDungToanTu" />
-        <item itemvalue="Application.KhaiBaoVaSuDungBien" />
+        <item itemvalue="Application.HienThiCacSoNguyenToNhoHon100" />
+        <item itemvalue="Application.UngDungTinhTienLaiChoVay" />
+        <item itemvalue="Application.ThietKeMenuChoUngDung" />
+        <item itemvalue="Application.KiemTraNamNhuan" />
+        <item itemvalue="Application.UngDungDocSoThanhChu" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +149,9 @@
       <option name="presentableId" value="Default" />
       <updated>1571104043921</updated>
       <workItem from="1571104048156" duration="2455000" />
-      <workItem from="1571106559092" duration="5131000" />
+      <workItem from="1571106559092" duration="6951000" />
+      <workItem from="1571122039249" duration="2054000" />
+      <workItem from="1571206622139" duration="3841000" />
     </task>
     <servers />
   </component>
