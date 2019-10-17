@@ -11,14 +11,15 @@ public class UngDungTinhTienLaiChoVay {
         int soThang;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap So tien");
-        soTien=scanner.nextFloat();
+        soTien = scanner.nextFloat();
         System.out.println("Nhap lai suat");
-        laiSuat=scanner.nextFloat();
+        laiSuat = scanner.nextFloat();
         System.out.println("Nhap so thang");
-        soThang=scanner.nextInt();
-        System.out.println(Tinh(soTien,laiSuat,soThang));
+        soThang = scanner.nextInt();
+        System.out.println(Tinh(soTien, laiSuat, soThang));
     }
-    static float Tinh(float soTien,float laiSuat,int soThang) {
-        return soTien*(laiSuat/12)*soThang;
+
+    static float Tinh(float soTien, float laiSuat, int soThang) {
+        return soTien * (laiSuat / 12) * soThang;
     }
 }

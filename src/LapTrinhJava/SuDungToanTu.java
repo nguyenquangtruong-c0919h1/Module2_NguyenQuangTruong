@@ -1,7 +1,6 @@
 package LapTrinhJava;
 
 
-
 import java.util.Scanner;
 
 public class SuDungToanTu {

@@ -62,7 +62,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HienThiCacSoNguyenToNhoHon100">
+  <component name="RunManager" selected="Application.TimGiaTriTrongMang">
+    <configuration name="ChuongTrinhChuyenDoiNhietDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.ChuongTrinhChuyenDoiNhietDo" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LapTrinhJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HienThiCacSoNguyenToNhoHon100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LapTrinhJava.HienThiCacSoNguyenToNhoHon100" />
       <module name="untitled" />
@@ -76,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KiemTraNamNhuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.KiemTraNamNhuan" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.Test" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThietKeMenuChoUngDung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.ThietKeMenuChoUngDung" />
+    <configuration name="TimGiaTriTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.TimGiaTriTrongMang" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -102,21 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UngDungDocSoThanhChu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.UngDungDocSoThanhChu" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LapTrinhJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UngDungTinhTienLaiChoVay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.UngDungTinhTienLaiChoVay" />
+    <configuration name="UngDungChuyenDoiTienTe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.UngDungChuyenDoiTienTe" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimGiaTriTrongMang" />
+        <item itemvalue="Application.ChuongTrinhChuyenDoiNhietDo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.UngDungChuyenDoiTienTe" />
         <item itemvalue="Application.HienThiCacSoNguyenToNhoHon100" />
-        <item itemvalue="Application.UngDungTinhTienLaiChoVay" />
-        <item itemvalue="Application.ThietKeMenuChoUngDung" />
-        <item itemvalue="Application.KiemTraNamNhuan" />
-        <item itemvalue="Application.UngDungDocSoThanhChu" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +152,7 @@
       <workItem from="1571106559092" duration="6951000" />
       <workItem from="1571122039249" duration="2054000" />
       <workItem from="1571206622139" duration="3841000" />
+      <workItem from="1571274652212" duration="6966000" />
     </task>
     <servers />
   </component>

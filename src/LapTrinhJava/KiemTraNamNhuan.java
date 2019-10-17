@@ -10,12 +10,13 @@ public class KiemTraNamNhuan {
         year = scanner.nextInt();
         KiemTra(year);
     }
-    static void KiemTra(int number){
-        if(number%4==0&&number%100!=0){
+
+    static void KiemTra(int number) {
+        if (number % 4 == 0 && number % 100 != 0) {
             System.out.println(number + " La nam nhuan");
-        }else if(number%400==0&&number%100==0){
+        } else if (number % 400 == 0 && number % 100 == 0) {
             System.out.println(number + " La nam nhuan");
-        }else{
+        } else {
             System.out.println(number + "khong phai la nam nhuan");
         }
     }

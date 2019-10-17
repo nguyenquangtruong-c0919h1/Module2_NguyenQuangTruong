@@ -7,7 +7,7 @@ public class TinhSoNgayTrongThang {
         int thang;
         Scanner scaner = new Scanner(System.in);
         System.out.println("Nhap thang");
-        thang=scaner.nextInt();
+        thang = scaner.nextInt();
         sothang(thang);
     }
 

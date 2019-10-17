@@ -7,7 +7,7 @@ public class KiemTraSoNguyenTo {
         int checkSoNguyenTo;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap so nguyen to = ");
-        checkSoNguyenTo=scanner.nextInt();
+        checkSoNguyenTo = scanner.nextInt();
         KiemTra(checkSoNguyenTo);
     }
 
@@ -24,8 +24,8 @@ public class KiemTraSoNguyenTo {
                 i++;
 
             }
-            if(check)
-            System.out.println(number + " la so nguyen to");
+            if (check)
+                System.out.println(number + " la so nguyen to");
             else
                 System.out.println(number + " k phai la so nguyen to");
         }
