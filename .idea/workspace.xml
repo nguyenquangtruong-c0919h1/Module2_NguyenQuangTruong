@@ -64,11 +64,11 @@
   </component>
   <component name="RunManager" selected="Application.TimGiaTriTrongMang">
     <configuration name="ChuongTrinhChuyenDoiNhietDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.ChuongTrinhChuyenDoiNhietDo" />
+      <option name="MAIN_CLASS_NAME" value="MangVaPhuongThuc.ChuongTrinhChuyenDoiNhietDo" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LapTrinhJava.*" />
+          <option name="PATTERN" value="MangVaPhuongThuc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,7 +81,7 @@
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LapTrinhJava.*" />
+          <option name="PATTERN" value="MangVaPhuongThuc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,7 +94,7 @@
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LapTrinhJava.*" />
+          <option name="PATTERN" value="MangVaPhuongThuc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="TimGiaTriTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.TimGiaTriTrongMang" />
+      <option name="MAIN_CLASS_NAME" value="MangVaPhuongThuc.TimGiaTriTrongMang" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LapTrinhJava.*" />
+          <option name="PATTERN" value="MangVaPhuongThuc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,7 +120,7 @@
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LapTrinhJava.*" />
+          <option name="PATTERN" value="MangVaPhuongThuc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,7 +152,7 @@
       <workItem from="1571106559092" duration="6951000" />
       <workItem from="1571122039249" duration="2054000" />
       <workItem from="1571206622139" duration="3841000" />
-      <workItem from="1571274652212" duration="6966000" />
+      <workItem from="1571274652212" duration="7234000" />
     </task>
     <servers />
   </component>

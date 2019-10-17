@@ -1,4 +1,4 @@
-package LapTrinhJava;
+package MangVaPhuongThuc;
 
 public class TimGiaTriLonNhatTrongMang {
     public static void main(String[] args) {
@@ -6,6 +6,6 @@ public class TimGiaTriLonNhatTrongMang {
     }
 
  static void duyetMang() {
-        
+
  }
 }

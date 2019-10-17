@@ -1,4 +1,4 @@
-package LapTrinhJava;
+package MangVaPhuongThuc;
 
 import java.util.Scanner;
 
