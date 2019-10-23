@@ -8,6 +8,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="182" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -62,9 +65,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimGiaTriTrongMang">
-    <configuration name="ChuongTrinhChuyenDoiNhietDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MangVaPhuongThuc.ChuongTrinhChuyenDoiNhietDo" />
+  <component name="RunManager" selected="Application.PhuongTrinhBacHai">
+    <configuration name="DemSoLuongSinhVienThiDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MangVaPhuongThuc.DemSoLuongSinhVienThiDo" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HienThiCacSoNguyenToNhoHon100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.HienThiCacSoNguyenToNhoHon100" />
+    <configuration name="GopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MangVaPhuongThuc.GopMang" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.Test" />
+    <configuration name="LopHinhChuNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LopVaDoiTuongJava.LopHinhChuNhat" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MangVaPhuongThuc.*" />
+          <option name="PATTERN" value="LopVaDoiTuongJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimGiaTriTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MangVaPhuongThuc.TimGiaTriTrongMang" />
+    <configuration name="PhuongTrinhBacHai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LopVaDoiTuongJava.PhuongTrinhBacHai" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MangVaPhuongThuc.*" />
+          <option name="PATTERN" value="LopVaDoiTuongJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UngDungChuyenDoiTienTe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LapTrinhJava.UngDungChuyenDoiTienTe" />
+    <configuration name="TimPhanTuLonNhatTrongMangHaiChieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MangVaPhuongThuc.TimPhanTuLonNhatTrongMangHaiChieu" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimGiaTriTrongMang" />
-        <item itemvalue="Application.ChuongTrinhChuyenDoiNhietDo" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.UngDungChuyenDoiTienTe" />
-        <item itemvalue="Application.HienThiCacSoNguyenToNhoHon100" />
+        <item itemvalue="Application.PhuongTrinhBacHai" />
+        <item itemvalue="Application.LopHinhChuNhat" />
+        <item itemvalue="Application.GopMang" />
+        <item itemvalue="Application.DemSoLuongSinhVienThiDo" />
+        <item itemvalue="Application.TimPhanTuLonNhatTrongMangHaiChieu" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +155,11 @@
       <workItem from="1571106559092" duration="6951000" />
       <workItem from="1571122039249" duration="2054000" />
       <workItem from="1571206622139" duration="3841000" />
-      <workItem from="1571274652212" duration="7234000" />
+      <workItem from="1571274652212" duration="10107000" />
+      <workItem from="1571361593789" duration="4457000" />
+      <workItem from="1571620876377" duration="2028000" />
+      <workItem from="1571623285613" duration="1172000" />
+      <workItem from="1571793458504" duration="5751000" />
     </task>
     <servers />
   </component>
@@ -163,5 +170,10 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Module2$ThemPhanTuVaoMang.ic" NAME="ThemPhanTuVaoMang Coverage Results" MODIFIED="1571372316929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>MangVaPhuongThuc.*</FILTER>
+    </SUITE>
   </component>
 </project>
