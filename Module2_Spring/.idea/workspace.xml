@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Module2_Spring:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d50025-d649-4752-b34e-c8105e9aaf7b" name="Default Changelist" comment="" />
+    <list default="true" id="4abbfb1f-a8c4-4ca1-96e6-de9a93f21334" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/src/Controller/LisCustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/src/Model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/src/Model/ListCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSPTuDienDonGian/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UngDungCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaWebMVC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/artifacts/HienThiDanhSachKhachHang_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/artifacts/HienThiDanhSachKhachHang_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/HienThiDanhSachKhachHang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/HienThiDanhSachKhachHang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JSPTuDienDonGian/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/out/production/JSPTuDienDonGian/META-INF/JSPTuDienDonGian.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/web/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPTuDienDonGian/web/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductDiscountCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductDiscountCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UngDungCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UngDungCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/out/artifacts/javaWebMVC_war_exploded/WEB-INF/classes/Controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/out/artifacts/javaWebMVC_war_exploded/WEB-INF/classes/Controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/out/artifacts/javaWebMVC_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/out/production/javaWebMVC/Controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/out/production/javaWebMVC/Controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/src/Controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/src/Controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/src/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/src/Service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/web/customer/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Tx5QCG1zIkrx9F7ejcKP3jrrdm" />
+  <component name="ProjectId" id="1UUvZSXjGfrABcHOA0HRYzaYdqx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SimpleLogin" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,94 +58,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment>
-        <artifact name="Module2_Spring:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_27_SeverTime" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50164" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Module2_Spring:war exploded" />
-        </option>
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a2d50025-d649-4752-b34e-c8105e9aaf7b" name="Default Changelist" comment="" />
-      <created>1574388887910</created>
+      <changelist id="4abbfb1f-a8c4-4ca1-96e6-de9a93f21334" name="Default Changelist" comment="" />
+      <created>1575424043350</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574388887910</updated>
-      <workItem from="1574388890122" duration="2482000" />
+      <updated>1575424043350</updated>
+      <workItem from="1575424044998" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

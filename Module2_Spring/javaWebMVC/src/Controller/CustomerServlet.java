@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "CustomerServlet")
+@WebServlet(name = "CustomerServlet",urlPatterns = "/customers")
 public class CustomerServlet extends HttpServlet {
     private CustomerService customerService = new CustomerImple();
 
@@ -30,6 +30,8 @@ public class CustomerServlet extends HttpServlet {
             case "delete":
                 break;
             default:
+                listCustomer(request,response);
+
                 break;
         }
     }
@@ -45,6 +47,8 @@ public class CustomerServlet extends HttpServlet {
             case "edit":
                 break;
             case "delete":
+                break;
+            case "view":
                 break;
             default:
                 listCustomer(request,response);

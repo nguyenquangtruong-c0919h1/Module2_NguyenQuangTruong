@@ -6,7 +6,41 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b0c179-069b-41ea-8ca2-452d3aaf0819" name="Default Changelist" comment="" />
+    <list default="true" id="27b0c179-069b-41ea-8ca2-452d3aaf0819" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DirectoryMaven/src/main/java/controllers/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DirectoryMaven/src/main/java/services/directoryServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DirectoryMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DirectoryMaven/src/main/webapp/WEB-INF/views/directory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DirectoryMaven/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/src/Controller/LisCustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/src/Model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/src/Model/ListCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPTuDienDonGian/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UngDungCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/artifacts/HienThiDanhSachKhachHang_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/artifacts/HienThiDanhSachKhachHang_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/HienThiDanhSachKhachHang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/HienThiDanhSachKhachHang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPTuDienDonGian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPTuDienDonGian/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPTuDienDonGian/out/production/JSPTuDienDonGian/META-INF/JSPTuDienDonGian.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPTuDienDonGian/web/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPTuDienDonGian/web/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPUngDungChuyenDoiTienTe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPUngDungChuyenDoiTienTe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UngDungCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UngDungCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaWebMVC_war_exploded/WEB-INF/classes/Controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaWebMVC_war_exploded/WEB-INF/classes/Controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaWebMVC_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaWebMVC/Controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaWebMVC/Controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/customer/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +55,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -30,9 +67,10 @@
   </component>
   <component name="ProjectId" id="1U441zo3I2dSEBJcOUgZCXmpNEz" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/TomCat/apache-tomcat-9.0.27/apache-tomcat-9.0.27/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DirectoryMaven" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,10 +144,23 @@
       <option name="presentableId" value="Default" />
       <updated>1574602322238</updated>
       <workItem from="1574602325760" duration="3606000" />
+      <workItem from="1574644371130" duration="348000" />
+      <workItem from="1575427361417" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
