@@ -12,9 +12,18 @@
 </head>
 <body>
 <h1> Menu Sandwich</h1>
-<form>
+<form name="/sandwich" method="post">
     <h1> Sandwich Condiment</h1>
-    <input type="checkbox" name="s">
+    <label>Lettuce</label>
+    <input type="checkbox" name="sandwich" value="Lettuce">
+    <label>Tomato</label>
+    <input type="checkbox" name="sandwich" value="Tomato">
+    <label>Mustad</label>
+    <input type="checkbox" name="sandwich" value="Mustad">
+    <label>Sprouts</label>
+    <input type="checkbox" name="sandwich" value="Sprouts">
+    <input type="hidden" name="sandwich" value="Not found">
+    <input type="submit" value=" Save">
 </form>
 </body>
 </html>
