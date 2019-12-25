@@ -11,25 +11,26 @@ import java.util.Arrays;
 @Controller
 public class SandwichController {
     @GetMapping("/sandwich")
-    public String menuSandwich(){
+    public String menuSandwich() {
         return "menusandwich";
     }
+
     @PostMapping("/sandwich")
-    public String saveSandwich(@RequestParam("sandwich") String[] save, Model model){
-        if(save.length==1){
+    public String saveSandwich(@RequestParam("sandwich") String[] save, Model model) {
+        if (save.length == 1) {
 
             return "found";
         }
-        String[] temp=new String[save.length-1] ;
-        for(int i=0;i<save.length;i++) {
-            if(i==save.length-1) {
+        String[] temp = new String[save.length - 1];
+        for (int i = 0; i < save.length; i++) {
+            if (i == save.length - 1) {
                 continue;
             }
-            temp[i]=save[i];
+            temp[i] = save[i];
         }
         model.addAttribute("save", Arrays.toString(temp));
         return "saveSandwich";
 
-        }
     }
+}
 

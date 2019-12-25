@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "CustomerServlet",urlPatterns = "/customers")
+@WebServlet(name = "CustomerServlet", urlPatterns = "/customers")
 public class CustomerServlet extends HttpServlet {
     private CustomerService customerService = new CustomerImple();
 
@@ -30,7 +30,7 @@ public class CustomerServlet extends HttpServlet {
             case "delete":
                 break;
             default:
-                listCustomer(request,response);
+                listCustomer(request, response);
 
                 break;
         }
@@ -51,18 +51,19 @@ public class CustomerServlet extends HttpServlet {
             case "view":
                 break;
             default:
-                listCustomer(request,response);
+                listCustomer(request, response);
                 break;
         }
     }
-    private void listCustomer(HttpServletRequest request,HttpServletResponse response){
-        List<Customer> customer = this.customerService.findAll();
-        request.setAttribute("customer",customer);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/list.jsp");
-        try{
-            dispatcher.forward(request,response);
 
-        }catch(IOException | ServletException ex){
+    private void listCustomer(HttpServletRequest request, HttpServletResponse response) {
+        List<Customer> customer = this.customerService.findAll();
+        request.setAttribute("customer", customer);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("customer/list.jsp");
+        try {
+            dispatcher.forward(request, response);
+
+        } catch (IOException | ServletException ex) {
             ex.printStackTrace();
         }
 

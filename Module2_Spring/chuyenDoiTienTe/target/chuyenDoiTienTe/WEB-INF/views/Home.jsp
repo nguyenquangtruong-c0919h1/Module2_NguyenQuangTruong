@@ -13,12 +13,12 @@
 <body>
 
 <h1>Chuyển đổi tiền tệ</h1>
-<form >
-<label>USD</label>
-<input type="text" name="rate" value="23000">
-<label>VND</label>
-<input type="text" name="usd" placeholder="Enter number money">
-<input type="submit" value="Ok">
+<form>
+    <label>USD</label>
+    <input type="text" name="rate" value="23000">
+    <label>VND</label>
+    <input type="text" name="usd" placeholder="Enter number money">
+    <input type="submit" value="Ok">
 </form>
 </body>
 </html>

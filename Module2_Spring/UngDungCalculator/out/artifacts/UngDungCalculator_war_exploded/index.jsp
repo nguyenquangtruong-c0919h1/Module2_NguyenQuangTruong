@@ -18,10 +18,10 @@
     <input type="text" name="firstOperand" placeholder="First Operand"></br>
     <label>Operator</label>
     <select name="operator">
-        <option value="+"> + </option>
-        <option value="-"> - </option>
-        <option value="*"> * </option>
-        <option value="/"> / </option>
+        <option value="+"> +</option>
+        <option value="-"> -</option>
+        <option value="*"> *</option>
+        <option value="/"> /</option>
     </select></br>
     <label>Second Operand</label>
     <input type="text" name="secondOperand" placeholder="Second Operand"></br>

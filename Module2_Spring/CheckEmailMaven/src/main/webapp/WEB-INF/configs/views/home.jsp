@@ -12,9 +12,9 @@
 </head>
 <body>
 <form action="/home" method="post">
-<h1> Check Email</h1>
-<label>Email</label>
-<input type="text" path="email">
+    <h1> Check Email</h1>
+    <label>Email</label>
+    <input type="text" path="email">
 </form>
 </body>
 </html>

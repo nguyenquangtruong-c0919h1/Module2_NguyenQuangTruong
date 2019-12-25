@@ -17,7 +17,7 @@ public class SeverTimeServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
         writer.println("<h1>Hello world</h1>");
-        Date today =  new Date();
+        Date today = new Date();
         writer.println("<hl>" + today + "<hl>");
         writer.println("</html>");
 

@@ -7,29 +7,31 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <style type="text/css">
-    .login{
-      height: 180px;width: 230px;
-      margin: 0;
-      padding: 10px;
+</head>
+<style type="text/css">
+    .login {
+        height: 180px;
+        width: 230px;
+        margin: 0;
+        padding: 10px;
         border: 1px #CCC solid;
     }
-    .login input{
-      padding: 5px;
-      margin: 5px;
+
+    .login input {
+        padding: 5px;
+        margin: 5px;
     }
-  </style>
-  <body>
-  <form method="post" action="/login">
+</style>
+<body>
+<form method="post" action="/login">
     <div class="login">
-      <h2>Login</h2>
-      <input type="text" name="usename" size="20" placeholder="Use Name">
-      <input type="password" name="password" size="20" placeholder="Password">
-      <input type="submit" value="Sign in">
+        <h2>Login</h2>
+        <input type="text" name="usename" size="20" placeholder="Use Name">
+        <input type="password" name="password" size="20" placeholder="Password">
+        <input type="submit" value="Sign in">
     </div>
-  </form>
-  </body>
+</form>
+</body>
 </html>

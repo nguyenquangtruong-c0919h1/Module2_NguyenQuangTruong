@@ -15,7 +15,8 @@ public class directoryServices {
         dic.put("Good Bye", "Tam Biet");
         dic.put("Hi", "Xin Chao");
     }
-    public static Map<String,String> getValueAll(){
+
+    public static Map<String, String> getValueAll() {
         return dic;
     }
 }

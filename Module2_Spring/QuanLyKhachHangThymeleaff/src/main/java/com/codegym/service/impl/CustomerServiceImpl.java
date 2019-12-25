@@ -1,6 +1,7 @@
-package com.codegym.service;
+package com.codegym.service.impl;
 
 import com.codegym.model.Customer;
+import com.codegym.service.CustomerService;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -30,14 +31,17 @@ public class CustomerServiceImpl implements CustomerService {
         customers.put(customer.getId(), customer);
     }
 
+    @Override
     public Customer findId(int id) {
         return customers.get(id);
     }
 
+    @Override
     public void update(int id, Customer customer) {
         customers.put(id, customer);
     }
 
+    @Override
     public void remove(int id) {
         customers.remove(id);
     }

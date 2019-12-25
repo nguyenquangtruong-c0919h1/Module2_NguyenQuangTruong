@@ -45,17 +45,14 @@ import java.util.regex.Pattern;
 public class HomeController {
 
 
-
     private static Pattern pattern;
 
     private Matcher matcher;
 
 
-
     // Khai báo Regex
 
     private static final String EMAIL_REGEX = "^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)$";
-
 
 
     public HomeController() {
@@ -73,7 +70,6 @@ public class HomeController {
     }
 
 
-
     @RequestMapping(value = "/validate", method = RequestMethod.POST)
 
     public String user(@RequestParam("email") String email, ModelMap model) {
@@ -87,7 +83,6 @@ public class HomeController {
             return "home";
 
         }
-
 
 
         model.addAttribute("email", email);

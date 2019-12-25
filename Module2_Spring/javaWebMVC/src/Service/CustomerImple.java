@@ -41,6 +41,6 @@ public class CustomerImple implements CustomerService {
 
     @Override
     public void remove(int id) {
-        customers.remove( id);
+        customers.remove(id);
     }
 }

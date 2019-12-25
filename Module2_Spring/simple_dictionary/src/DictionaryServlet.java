@@ -9,23 +9,22 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(name = "DictionaryServlet",urlPatterns = "/translate")
+@WebServlet(name = "DictionaryServlet", urlPatterns = "/translate")
 public class DictionaryServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Map<String,String> dictionary = new HashMap<>();
-        dictionary.put("Hello","Xin chao");
-        dictionary.put("Good Bye","Tam Biet");
-        dictionary.put("Hey Guy","Chao Cac Ban");
+        Map<String, String> dictionary = new HashMap<>();
+        dictionary.put("Hello", "Xin chao");
+        dictionary.put("Good Bye", "Tam Biet");
+        dictionary.put("Hey Guy", "Chao Cac Ban");
         String search = request.getParameter("search");
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
         String result = dictionary.get(search);
-        if(result != null){
+        if (result != null) {
             writer.println("<h1> Word : " + search + "</h1> </br>");
             writer.println("<h1> Result : " + result + "</h1> </br>");
 
-        }
-        else
+        } else
             writer.println("Not Found");
         writer.println("</html>");
 

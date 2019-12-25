@@ -2,7 +2,7 @@ package Service;
 
 import Model.Customer;
 
-import java.util.List   ;
+import java.util.List;
 
 public interface CustomerService {
     List<Customer> findAll();

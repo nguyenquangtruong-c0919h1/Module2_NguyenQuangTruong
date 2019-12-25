@@ -12,13 +12,13 @@ import java.util.TimeZone;
 @Controller
 public class TimeController {
     @GetMapping("/worldclock")
-    public String getTimeByTimeZone(ModelMap modelMap, @RequestParam(name="city", required = false, defaultValue = "Asia/Ho_Chi_Minh")String city){
-Date date = new Date();
+    public String getTimeByTimeZone(ModelMap modelMap, @RequestParam(name = "city", required = false, defaultValue = "Asia/Ho_Chi_Minh") String city) {
+        Date date = new Date();
         TimeZone local = TimeZone.getDefault();
         TimeZone locale = TimeZone.getTimeZone(city);
-        long locale_time = date.getTime()+(locale.getRawOffset() - local.getRawOffset());
+        long locale_time = date.getTime() + (locale.getRawOffset() - local.getRawOffset());
         date.getTime(locale_time);
-        modelMap.addAllAttributes("city",city);
+        modelMap.addAllAttributes("city", city);
         return "index";
     }
 }

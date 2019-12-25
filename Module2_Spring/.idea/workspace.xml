@@ -1,35 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4abbfb1f-a8c4-4ca1-96e6-de9a93f21334" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/src/Controller/LisCustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/src/Model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/src/Model/ListCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSPTuDienDonGian/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UngDungCalculator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaWebMVC/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="623ee054-17be-4d57-81af-9a7ce3aba3a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/artifacts/HienThiDanhSachKhachHang_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/artifacts/HienThiDanhSachKhachHang_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckEmailMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CheckEmailMaven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckEmailMaven/src/main/java/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CheckEmailMaven/src/main/java/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckEmailMaven/src/main/webapp/WEB-INF/configs/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CheckEmailMaven/src/main/webapp/WEB-INF/configs/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckEmailMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CheckEmailMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckEmailMaven/target/checkEmail/WEB-INF/configs/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CheckEmailMaven/target/checkEmail/WEB-INF/configs/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CheckEmailMaven/target/checkEmail/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CheckEmailMaven/target/checkEmail/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryMaven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryMaven/src/main/java/controllers/DictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryMaven/src/main/java/controllers/DictionaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryMaven/src/main/java/services/directoryServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryMaven/src/main/java/services/directoryServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryMaven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryMaven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryMaven/target/Directory/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryMaven/target/Directory/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DirectoryMaven/target/Directory/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryMaven/target/Directory/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/HienThiDanhSachKhachHang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/HienThiDanhSachKhachHang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/out/artifacts/HienThiDanhSachKhachHang_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/out/artifacts/HienThiDanhSachKhachHang_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/src/Model/ListCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/src/Model/ListCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HienThiDanhSachKhachHang/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiDanhSachKhachHang/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JSPTuDienDonGian/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/dictionary.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/out/production/JSPTuDienDonGian/META-INF/JSPTuDienDonGian.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/web/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPTuDienDonGian/web/dictionary.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductDiscountCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductDiscountCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiGiaViMaven/src/main/java/controllers/SandwichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiGiaViMaven/src/main/java/controllers/SandwichController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiGiaViMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiGiaViMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiGiaViMaven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiGiaViMaven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiGiaViMaven/target/hienthigiavi/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiGiaViMaven/target/hienthigiavi/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HienThiGiaViMaven/target/hienthigiavi/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HienThiGiaViMaven/target/hienthigiavi/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPTuDienDonGian/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPTuDienDonGian/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/out/artifacts/JSPUngDungChuyenDoiTienTe_war_exploded/converter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/out/artifacts/JSPUngDungChuyenDoiTienTe_war_exploded/converter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/out/artifacts/JSPUngDungChuyenDoiTienTe_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/out/artifacts/JSPUngDungChuyenDoiTienTe_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/web/converter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/web/converter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JSPUngDungChuyenDoiTienTe/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWebCurrentConverter/out/artifacts/JavaWebCurrentConverter_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebCurrentConverter/out/artifacts/JavaWebCurrentConverter_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWebCurrentConverter/src/ConvertServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebCurrentConverter/src/ConvertServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWebCurrentConverter/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebCurrentConverter/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayTinhCaNhanMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinhCaNhanMaven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayTinhCaNhanMaven/src/main/java/controllers/caculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinhCaNhanMaven/src/main/java/controllers/caculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayTinhCaNhanMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinhCaNhanMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayTinhCaNhanMaven/src/main/webapp/WEB-INF/views/homeCaculater.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinhCaNhanMaven/src/main/webapp/WEB-INF/views/homeCaculater.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayTinhCaNhanMaven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinhCaNhanMaven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayTinhCaNhanMaven/target/MayTinhCaNhanMaven/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinhCaNhanMaven/target/MayTinhCaNhanMaven/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayTinhCaNhanMaven/target/MayTinhCaNhanMaven/WEB-INF/views/homeCaculater.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinhCaNhanMaven/target/MayTinhCaNhanMaven/WEB-INF/views/homeCaculater.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MayTinhCaNhanMaven/target/MayTinhCaNhanMaven/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinhCaNhanMaven/target/MayTinhCaNhanMaven/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductDiscountCalculator/out/artifacts/ProductDiscountCalculator_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ProductDiscountCalculator/out/artifacts/ProductDiscountCalculator_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductDiscountCalculator/src/discountCalculateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductDiscountCalculator/src/discountCalculateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductDiscountCalculator/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ProductDiscountCalculator/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuanLyKhachHangThymeleaff/src/main/java/com/codegym/controller/ControlerCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuanLyKhachHangThymeleaff/src/main/java/com/codegym/controller/ControlerCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuanLyKhachHangThymeleaff/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuanLyKhachHangThymeleaff/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuanLyKhachHangThymeleaff/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/QuanLyKhachHangThymeleaff/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverTimeSeverlet/out/artifacts/Module2_Spring_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SeverTimeSeverlet/out/artifacts/Module2_Spring_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverTimeSeverlet/src/SeverTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeverTimeSeverlet/src/SeverTimeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverTimeSeverlet/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SeverTimeSeverlet/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UngDungCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UngDungCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWebMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWebMVC/out/artifacts/javaWebMVC_war_exploded/WEB-INF/classes/Controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/out/artifacts/javaWebMVC_war_exploded/WEB-INF/classes/Controller/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWebMVC/out/artifacts/javaWebMVC_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWebMVC/out/production/javaWebMVC/Controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/out/production/javaWebMVC/Controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UngDungCalculator/out/artifacts/UngDungCalculator_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UngDungCalculator/out/artifacts/UngDungCalculator_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UngDungCalculator/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UngDungCalculator/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XemGioTheGioiMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XemGioTheGioiMaven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XemGioTheGioiMaven/src/main/java/controllers/TimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/XemGioTheGioiMaven/src/main/java/controllers/TimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XemGioTheGioiMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XemGioTheGioiMaven/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XemGioTheGioiMaven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XemGioTheGioiMaven/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyenDoiTienTe/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chuyenDoiTienTe/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyenDoiTienTe/src/main/java/controllers/ChangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyenDoiTienTe/src/main/java/controllers/ChangeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyenDoiTienTe/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chuyenDoiTienTe/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyenDoiTienTe/src/main/webapp/WEB-INF/views/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/chuyenDoiTienTe/src/main/webapp/WEB-INF/views/Home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyenDoiTienTe/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chuyenDoiTienTe/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyenDoiTienTe/target/chuyenDoiTienTe/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chuyenDoiTienTe/target/chuyenDoiTienTe/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyenDoiTienTe/target/chuyenDoiTienTe/WEB-INF/views/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/chuyenDoiTienTe/target/chuyenDoiTienTe/WEB-INF/views/Home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyenDoiTienTe/target/chuyenDoiTienTe/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chuyenDoiTienTe/target/chuyenDoiTienTe/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/out/artifacts/javaWebMVC_war_exploded/customer/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/out/artifacts/javaWebMVC_war_exploded/customer/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaWebMVC/src/Controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/src/Controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/src/Service/CustomerImple.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/src/Service/CustomerImple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaWebMVC/src/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/src/Service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWebMVC/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/web/customer/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWebMVC/web/customer/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/javaWebMVC/web/customer/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_dictionary/src/DictionaryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple_dictionary/src/DictionaryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_login/out/artifacts/simple_login_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_login/out/artifacts/simple_login_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_login/src/SimpleLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple_login/src/SimpleLoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_login/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_login/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-model-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-model-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-model-user/src/main/java/controllers/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-model-user/src/main/java/controllers/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-model-user/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-model-user/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-model-user/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-model-user/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-model-user/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-model-user/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-model-user/target/lib/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-model-user/target/lib/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-model-user/target/lib/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-model-user/target/lib/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +95,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1UUvZSXjGfrABcHOA0HRYzaYdqx" />
+  <component name="ProjectId" id="1UuTMHGefn7sJ8A27brphs6Azgh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -58,17 +114,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="QuanlytinhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Module2_Spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="quanlytinh.quanlytinh.QuanlytinhApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4abbfb1f-a8c4-4ca1-96e6-de9a93f21334" name="Default Changelist" comment="" />
-      <created>1575424043350</created>
+      <changelist id="623ee054-17be-4d57-81af-9a7ce3aba3a2" name="Default Changelist" comment="" />
+      <created>1576205430873</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575424043350</updated>
-      <workItem from="1575424044998" duration="84000" />
+      <updated>1576205430873</updated>
+      <workItem from="1576205433933" duration="136000" />
     </task>
     <servers />
   </component>

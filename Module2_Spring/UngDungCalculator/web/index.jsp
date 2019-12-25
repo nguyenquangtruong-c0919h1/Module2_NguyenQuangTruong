@@ -15,17 +15,17 @@
 <form method="post" action="/calculator">
     <h2>Calculator</h2>
     <label>First Operand</label>
-    <input type="text" name="firstOperand" ></br>
+    <input type="text" name="firstOperand"></br>
     <label>Operator</label>
     <select name="operator">
-        <option value="+"> + </option>
-        <option value="-"> - </option>
-        <option value="*"> * </option>
-        <option value="/"> / </option>
+        <option value="+"> +</option>
+        <option value="-"> -</option>
+        <option value="*"> *</option>
+        <option value="/"> /</option>
     </select></br>
     <label>Second Operand</label>
-    <input type="text" name="secondOperand" ></br>
-    <input type="button"  value="Calculater">
+    <input type="text" name="secondOperand"></br>
+    <input type="button" value="Calculater">
 </form>
 </body>
 </html>

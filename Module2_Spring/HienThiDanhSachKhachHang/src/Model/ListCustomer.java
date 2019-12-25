@@ -3,7 +3,7 @@ package Model;
 import java.util.*;
 
 public class ListCustomer {
-    private static  Map<Integer, Customer> listCustomer;
+    private static Map<Integer, Customer> listCustomer;
 
     static {
         initCustomer();
@@ -26,7 +26,7 @@ public class ListCustomer {
 
     public static List<Customer> getCustomer() {
         Collection<Customer> c = listCustomer.values();
-        List<Customer> customerList=new ArrayList<>() ;
+        List<Customer> customerList = new ArrayList<>();
         customerList.addAll(c);
         return customerList;
     }

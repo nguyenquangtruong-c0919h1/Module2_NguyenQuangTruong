@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validate</title>
+</head>
+<body>
+<form th:action="@{/home}" method="post" th:object="${user}">
+    <label>Fist Name</label>
+    <input type="text" th:field="*{fistName}">
+    <label>Last Name</label>
+    <input type="text" th:field="*{lastName}">
+    <label>Phone Number</label>
+    <input type="text" th:field="*{phoneNumber}">
+    <label>Age</label>
+    <input type="number" th:field="*{age}">
+    <label>Email</label>
+    <input type="text" th:field="*{email}">
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

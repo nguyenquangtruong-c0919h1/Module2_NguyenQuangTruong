@@ -13,14 +13,14 @@
 <body>
 <h1> Caculater</h1>
 <form method="post" action="/home">
-<input type="text" name="number1">
-<select name="operator">
-    <option value="+"> + </option>
-    <option value="-"> - </option>
-    <option value="*"> * </option>
-    <option value="/"> / </option>
-</select>
-<input type="text" name="number2">
+    <input type="text" name="number1">
+    <select name="operator">
+        <option value="+"> +</option>
+        <option value="-"> -</option>
+        <option value="*"> *</option>
+        <option value="/"> /</option>
+    </select>
+    <input type="text" name="number2">
     <input type="submit" value="OK Baby">
 </form>
 </body>

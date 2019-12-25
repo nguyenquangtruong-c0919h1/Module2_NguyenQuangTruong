@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="972cc90b-49b6-40e7-9492-be3894e76f89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPTuDienDonGian/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaWebMVC/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/HienThiDanhSachKhachHang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/HienThiDanhSachKhachHang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HienThiDanhSachKhachHang/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPTuDienDonGian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPTuDienDonGian/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPTuDienDonGian/out/artifacts/JSPTuDienDonGian_war_exploded/dictionary.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPTuDienDonGian/out/production/JSPTuDienDonGian/META-INF/JSPTuDienDonGian.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPTuDienDonGian/web/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPTuDienDonGian/web/dictionary.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPUngDungChuyenDoiTienTe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPUngDungChuyenDoiTienTe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductDiscountCalculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWebMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaWebMVC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWebMVC/out/artifacts/javaWebMVC_war_exploded/WEB-INF/classes/Controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaWebMVC/out/artifacts/javaWebMVC_war_exploded/WEB-INF/classes/Controller/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWebMVC/out/production/javaWebMVC/Controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javaWebMVC/out/production/javaWebMVC/Controller/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWebMVC/src/Controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaWebMVC/src/Controller/CustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaWebMVC/src/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaWebMVC/src/Service/CustomerService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,6 +148,8 @@
       <updated>1574521503374</updated>
       <workItem from="1574521505891" duration="5250000" />
       <workItem from="1574733164683" duration="220000" />
+      <workItem from="1576121857946" duration="636000" />
+      <workItem from="1576159019168" duration="189000" />
     </task>
     <servers />
   </component>
@@ -178,7 +161,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
