@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
@@ -18,19 +18,19 @@
 </head>
 <body>
 <div class="container">
+    <nav class="row">
 
-    <div class="row">
         <div class="col-md-12 " style="background: #241fff">
-            <ul >
-                <li >
-                    <button type="button" class="btn btn-primary">Đăng Ký </button>
+            <ul class="navbar-nav mx-auto">
+                <li>
+                    <button type="button" class="btn btn-primary">Đăng Ký</button>
                     <button type="button" class="btn btn-primary">Đăng Nhập</button>
                 </li>
             </ul>
         </div>
 
 
-    </div>
+    </nav>
     <nav class="navbar navbar-expand-lg">
         <div class="collapse navbar-collapse" id="navbarSupportedContent"
              style="background-color: #e3f2fd;text-align: center">
@@ -52,7 +52,53 @@
 
         </div>
     </nav>
-</div>
 
+    <h1>Danh sách Dịch vụ</h1>
+    <div th:each="dichvu : ${dichvuService}"></div>
+    <form >
+        <div>
+            <h2>Villa</h2>
+            <div>
+                <div>
+                    <a href="https://github.com/nguyenquangtruong-c0919h1/module1/blob/master/Bai5Cautruclap/BTSinhbangcuuchuong.html">
+                        <img src="picture/villa1.jpg"
+                             title="Villa 1" width="200" height="200">
+                    </a>
+
+                    </br>
+                    <input type="radio" name="service" value="Villa">
+                    <h5>Villa 1</h5>
+                </div>
+                <div>
+                    <img src="picture/villa2.jpg"
+                         title="Villa 2" width="200" height="200">
+                    </br>
+                    <input type="radio" name="service" value="Villa">
+                    <h5>Villa 2</h5>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>House</h2>
+            <a>
+                <img src="picture/house1.jpg"
+                     title="House 1" width="200" height="200">
+                </br>
+                <input type="radio" name="service" value="House">
+                <h5>House 1</h5>
+            </a>
+            <div>
+                <img src="picture/house2.jpg"
+                     title="House 2" width="200" height="200">
+                </br>
+                <input type="radio" name="service" value="House">
+                <h5>House 2</h5>
+            </div>
+        </div>
+        <input type="submit" value="Select" height="50" width="50">
+    </form>
+</div>
+</form>
+</div>
 </body>
 </html>

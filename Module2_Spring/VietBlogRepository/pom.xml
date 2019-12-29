@@ -8,10 +8,10 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example.CaseStudyModuleJavaSpringBoot</groupId>
-    <artifactId>casestudymodulejavaspringboot</artifactId>
+    <groupId>com.example.vietblogrepository</groupId>
+    <artifactId>vietblogrepository</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>casestudymodulejavaspringboot</name>
+    <name>vietblogrepository</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
