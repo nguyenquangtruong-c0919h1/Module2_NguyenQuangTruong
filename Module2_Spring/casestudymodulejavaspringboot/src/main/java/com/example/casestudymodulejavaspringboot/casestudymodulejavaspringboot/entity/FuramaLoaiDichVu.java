@@ -9,9 +9,9 @@ import java.util.List;
 @Table(name = "loaidichvu")
 public class FuramaLoaiDichVu {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idLoaiDichVu;
-    @Column(name = "TenLoaiDichVu")
+    @Column(name = "id_loai_dich_vu")
+    private Long idLoaiDichVu;
+    @Column(name = "ten_loai_dich_vu")
     private String tenLoaiDichVu;
     @OneToMany(targetEntity = FuramaDichVu.class)
     private List<FuramaDichVu> furamaDichVus;
@@ -19,11 +19,11 @@ public class FuramaLoaiDichVu {
     public FuramaLoaiDichVu() {
     }
 
-    public int getIdLoaiDichVu() {
+    public Long getIdLoaiDichVu() {
         return idLoaiDichVu;
     }
 
-    public void setIdLoaiDichVu(int idLoaiDichVu) {
+    public void setIdLoaiDichVu(Long idLoaiDichVu) {
         this.idLoaiDichVu = idLoaiDichVu;
     }
 

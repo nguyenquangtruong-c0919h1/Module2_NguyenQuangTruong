@@ -67,7 +67,7 @@
 </nav>
 <nav>
     <div class="navbar-nav ml-auto">
-        <img src="picture/anhnenbanner1.jpg">
+        <img src="../../../static/picture/anhnenbanner1.jpg">
     </div>
 </nav>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -100,27 +100,7 @@
         </div>
     </div>
 </nav>
-<form action="/">
-    <select name="fromPrince">
-        <option value="1000000">1 Triệu</option>
-        <option value="2000000">2 Triệu</option>
-        <option value="3000000">3 Triệu</option>
-        <option value="4000000">4 Triệu</option>
-        <option value="5000000">5 Triệu</option>
-        <option value="6000000">6 Triệu</option>
-        <option value="7000000">7 Triệu</option>
-    </select>
-    <select name="toPrince">
-        <option value="1000000">1 Triệu</option>
-        <option value="2000000">2 Triệu</option>
-        <option value="3000000">3 Triệu</option>
-        <option value="4000000">4 Triệu</option>
-        <option value="5000000">5 Triệu</option>
-        <option value="6000000">6 Triệu</option>
-        <option value="7000000">7 Triệu</option>
-    </select>
-    <input type="submit" value="Tìm Kiếm">
-</form>
+<!-- Page Content -->
 <div class="container">
 
     <div class="row">
@@ -131,16 +111,17 @@
 
         <!-- Sidebar Widgets Column -->
         <div class="col-md-6">
-            <form action="/">
-            <div th:each="dichVu : ${dichVuService}">
-                <a th:href="@{'/views/dichvu/' + ${dichVu.id}}" th:text="${dichVu.tenDichVu}" > </a></br>
+            <h2 th:text="${dichVuChiTiet.get().getTenDichVu()}"></h2>
             <label>Diện tích</label>
-                <h3 th:text="${dichVu.getDienTich()}"></h3>
-                <label>Chi Phí Thuê</label>
-            <h3 th:text="${dichVu.getChiPhiThue()}"></h3>
-                <a th:href="@{'/views/booking/'+${dichVu.id}}">Booking</a>
-            </div>
-            </form>
+            <h5 th:text="${dichVuChiTiet.get().getDienTich()}"></h5>
+            <label>Số tầng</label>
+            <h5 th:text="${dichVuChiTiet.get().getSoTang()}"></h5>
+            <label>Chi Phí Thuê</label>
+            <h5 th:text="${dichVuChiTiet.get().getChiPhiThue()}"></h5>
+            <label>Số Người Tối Đa</label>
+            <h5 th:text="${dichVuChiTiet.get().getSoNguoiToiDa()}"></h5>
+            <label>Trạng thái</label>
+            <h5 th:text="${dichVuChiTiet.get().getTrangThai()}"></h5>
         </div>
         <div class="col-md-3">
 

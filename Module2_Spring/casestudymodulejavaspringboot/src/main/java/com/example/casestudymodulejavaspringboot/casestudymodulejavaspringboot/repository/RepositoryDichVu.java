@@ -4,4 +4,5 @@ import com.example.casestudymodulejavaspringboot.casestudymodulejavaspringboot.e
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 public interface RepositoryDichVu extends PagingAndSortingRepository<FuramaDichVu,Long> {
+    Iterable<FuramaDichVu> findAllByChiPhiThueBetween(Integer fromPrince,Integer toPrince);
 }

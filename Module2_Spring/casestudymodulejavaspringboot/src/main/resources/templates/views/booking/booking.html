@@ -100,27 +100,6 @@
         </div>
     </div>
 </nav>
-<form action="/">
-    <select name="fromPrince">
-        <option value="1000000">1 Triệu</option>
-        <option value="2000000">2 Triệu</option>
-        <option value="3000000">3 Triệu</option>
-        <option value="4000000">4 Triệu</option>
-        <option value="5000000">5 Triệu</option>
-        <option value="6000000">6 Triệu</option>
-        <option value="7000000">7 Triệu</option>
-    </select>
-    <select name="toPrince">
-        <option value="1000000">1 Triệu</option>
-        <option value="2000000">2 Triệu</option>
-        <option value="3000000">3 Triệu</option>
-        <option value="4000000">4 Triệu</option>
-        <option value="5000000">5 Triệu</option>
-        <option value="6000000">6 Triệu</option>
-        <option value="7000000">7 Triệu</option>
-    </select>
-    <input type="submit" value="Tìm Kiếm">
-</form>
 <div class="container">
 
     <div class="row">
@@ -131,15 +110,43 @@
 
         <!-- Sidebar Widgets Column -->
         <div class="col-md-6">
-            <form action="/">
-            <div th:each="dichVu : ${dichVuService}">
-                <a th:href="@{'/views/dichvu/' + ${dichVu.id}}" th:text="${dichVu.tenDichVu}" > </a></br>
-            <label>Diện tích</label>
-                <h3 th:text="${dichVu.getDienTich()}"></h3>
-                <label>Chi Phí Thuê</label>
-            <h3 th:text="${dichVu.getChiPhiThue()}"></h3>
-                <a th:href="@{'/views/booking/'+${dichVu.id}}">Booking</a>
-            </div>
+            <form method="post" action="/views/booking/">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="hidden" th:value="${dichVu.getId()}">
+                        <label for="tenDichVu">Tên Dịch Vụ</label>
+                        <input type="text" class="form-control" th:value="${dichVu.getTenDichVu()}" name="tenDichVu"
+                               disabled>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="dienTich">Diện Tích</label>
+                        <input type="text" class="form-control" name="dienTich" th:value="${dichVu.getDienTich()}"
+                               placeholder="Password" disabled>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="chiPhiThue">Chi Phí Thuê</label>
+                    <input type="number" class="form-control" name="chiPhiThue" th:value="${dichVu.getChiPhiThue()}"
+                           placeholder="1234 Main St" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="soNguoiToiDa">Số Người Tối Đa</label>
+                    <input type="number" class="form-control" name="soNguoiToiDa" th:value="${dichVu.getSoNguoiToiDa()}"
+                           placeholder="Apartment, studio, or floor" disabled>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="ngayLamHopDong">Ngày Làm Hợp Đồng</label>
+                        <input type="date" class="form-control" name="ngayLamHopDong" id="ngayLamHopDong">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="ngayKetThuc">Ngày Kết Thúc</label>
+                        <input type="date" class="form-control" name="ngayKetThuc" id="ngayLamHopDong">
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Booking</button>
             </form>
         </div>
         <div class="col-md-3">

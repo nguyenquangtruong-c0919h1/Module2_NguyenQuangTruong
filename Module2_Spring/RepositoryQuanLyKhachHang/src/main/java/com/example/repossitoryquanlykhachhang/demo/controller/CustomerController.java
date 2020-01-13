@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class CustomerController {
     @Autowired
     CustomerService customerService;
-    @GetMapping("/create-customer")
+        @GetMapping("/create-customer")
     public ModelAndView showCreateForm(){
         ModelAndView modelAndView = new ModelAndView("views/customer/create");
         modelAndView.addObject("customer", new Customer() );

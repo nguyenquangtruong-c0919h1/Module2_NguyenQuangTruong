@@ -1,0 +1,7 @@
+package com.example.casestudymodulejavaspringboot.casestudymodulejavaspringboot.repository;
+
+import com.example.casestudymodulejavaspringboot.casestudymodulejavaspringboot.entity.FuramaHopDong;
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+public interface RepositoryHopDong extends PagingAndSortingRepository<FuramaHopDong,Long> {
+}
