@@ -3,7 +3,7 @@ package com.example.casestudymodulejavaspringboot.casestudymodulejavaspringboot.
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.sql.Date;
 
 @Entity
 @Table(name="hopdong")

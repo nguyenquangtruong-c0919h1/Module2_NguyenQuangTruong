@@ -5,7 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-<p>Success</p>
-<a th:href="/">Go to Home</a>
+
+<form th:action="@{/khachhang}" method="post" th:object="khachhang">
+    <label>Ten Khach Hang</label>
+</form>
 </body>
 </html>

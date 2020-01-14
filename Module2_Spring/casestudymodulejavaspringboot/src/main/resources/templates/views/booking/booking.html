@@ -113,7 +113,7 @@
             <form method="post" action="/views/booking/">
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <input type="hidden" th:value="${dichVu.getId()}">
+                        <input type="text" th:value="${dichVu.getId()}" id="id" name="id">
                         <label for="tenDichVu">Tên Dịch Vụ</label>
                         <input type="text" class="form-control" th:value="${dichVu.getTenDichVu()}" name="tenDichVu"
                                disabled>

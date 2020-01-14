@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.Date;
+import java.sql.Date;
+
 
 @Controller
 public class FuramaHopDongController {
@@ -29,11 +30,11 @@ public class FuramaHopDongController {
         modelAndView.addObject("dichVu",furamaDichVu);
 return modelAndView;
     }
-    @PostMapping("/view/booking")
+    @PostMapping("/views/booking")
     public ModelAndView saveBooking(@RequestParam("id")Long id, @RequestParam("ngayLamHopDong")Date ngayLamHopDong,
                                     @RequestParam("ngayKetThuc") Date ngayKetThuc){
         FuramaHopDong furamaHopDong = new FuramaHopDong();
-        furamaHopDong.getIdHopDong(id);
+        furamaHopDong.setIdHopDong(id);
         furamaHopDong.setNgayLamHopDong(ngayLamHopDong);
         furamaHopDong.setNgayKetThuc(ngayKetThuc);
         furamaHopDong.setIdNhanVien((long) 1);
