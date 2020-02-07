@@ -70,36 +70,36 @@
         <img src="../../../static/picture/anhnenbanner1.jpg">
     </div>
 </nav>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-    <div class="container">
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">-->
+<!--    <div class="container">-->
 
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav md-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Dịch vụ
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Tìm kiếm
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Review
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
+<!--        <div class="collapse navbar-collapse">-->
+<!--            <ul class="navbar-nav md-auto">-->
+<!--                <li class="nav-item active">-->
+<!--                    <a class="nav-link" th:href="#">Home-->
+<!--                        <span class="sr-only">(current)</span>-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li class="nav-item active">-->
+<!--                    <a class="nav-link" href="#">Dịch vụ-->
+<!--                        <span class="sr-only">(current)</span>-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li class="nav-item active">-->
+<!--                    <a class="nav-link" href="#">Tìm kiếm-->
+<!--                        <span class="sr-only">(current)</span>-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li class="nav-item active">-->
+<!--                    <a class="nav-link" href="#">Review-->
+<!--                        <span class="sr-only">(current)</span>-->
+<!--                    </a>-->
+<!--                </li>-->
 
-            </ul>
-        </div>
-    </div>
-</nav>
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
 <!-- Page Content -->
 <div class="container">
 
@@ -108,20 +108,22 @@
         <div class="col-md-3">
 
         </div>
-
+<div>
+    <a th:href="@{/}">Go to Home</a>
+</div>
         <!-- Sidebar Widgets Column -->
-        <div class="col-md-6">
-            <h2 th:text="${dichVuChiTiet.get().getTenDichVu()}"></h2>
+        <div class="col-md-6" th:each="dichVuChiTiet:${dichVuChiTiets}" >
+            <h2 th:text="${dichVuChiTiet.getTenDichVu()}"></h2>
             <label>Diện tích</label>
-            <h5 th:text="${dichVuChiTiet.get().getDienTich()}"></h5>
+            <h5 th:text="${dichVuChiTiet.getDienTich()}"></h5>
             <label>Số tầng</label>
-            <h5 th:text="${dichVuChiTiet.get().getSoTang()}"></h5>
+            <h5 th:text="${dichVuChiTiet.getSoTang()}"></h5>
             <label>Chi Phí Thuê</label>
-            <h5 th:text="${dichVuChiTiet.get().getChiPhiThue()}"></h5>
+            <h5 th:text="${dichVuChiTiet.getChiPhiThue()}"></h5>
             <label>Số Người Tối Đa</label>
-            <h5 th:text="${dichVuChiTiet.get().getSoNguoiToiDa()}"></h5>
+            <h5 th:text="${dichVuChiTiet.getSoNguoiToiDa()}"></h5>
             <label>Trạng thái</label>
-            <h5 th:text="${dichVuChiTiet.get().getTrangThai()}"></h5>
+            <h5 th:text="${dichVuChiTiet.getTrangThai()}"></h5>
         </div>
         <div class="col-md-3">
 

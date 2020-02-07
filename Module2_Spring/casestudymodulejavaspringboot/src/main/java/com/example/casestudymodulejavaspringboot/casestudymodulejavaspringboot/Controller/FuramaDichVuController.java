@@ -27,9 +27,9 @@ public class FuramaDichVuController {
     }
 
     @GetMapping("/views/dichvu/{id}")
-    public ModelAndView showServiceDetail(@PathVariable Long id) {
-        ModelAndView modelAndView = new ModelAndView("/views/dichvu/showService");
-        modelAndView.addObject("dichVuChiTiet", dichVuService.getDichvu(id));
+    public ModelAndView showServiceDetail(@PathVariable("id") Long id) {
+        ModelAndView modelAndView = new ModelAndView("/views/dichvu/showservice");
+        modelAndView.addObject("dichVuChiTiets", dichVuService.getDichvu(id));
         return modelAndView;
     }
 
